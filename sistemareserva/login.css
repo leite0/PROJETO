@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background:#205b59;
+    color:white;
+}
+
+
+.container {
+    flex: 1; 
+    display: flex;
+    align-items: center; 
+    padding: 50px 10%;
+    gap: 40px; 
+}
+
+
+/* LADO ESQUERDO */
+
+.left{
+
+    width:50%;
+    position:relative;
+
+}
+
+
+.logo h1{
+
+    font-size:55px;
+    font-weight:300;
+
+}
+
+
+.logo span{
+
+    color:#22c55e;
+    font-size:18px;
+    font-weight:bold;
+
+}
+
+
+.line{
+
+    height:600px;
+    width:3px;
+    background:#00ff9d;
+    position:absolute;
+    left:-50px;
+    top:0;
+
+}
+
+
+.left h2{
+
+    margin-top:35px;
+
+    font-size:28px;
+    font-weight:300;
+
+    line-height:1.4;
+
+    max-width:450px;
+
+}
+
+
+
+.imagem{
+
+    width:370px;
+
+    margin-top:70px;
+
+}
+
+
+
+/* LADO DIREITO */
+
+.right{
+
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.login-box{
+
+    background:#1d5352;
+
+    width:540px;
+
+    padding:90px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+}
+
+
+
+.login-box h1{
+
+    font-size:32px;
+
+}
+
+
+.login-box h3{
+
+    margin:10px 0 50px;
+
+}
+
+
+
+label{
+
+    display:block;
+    text-align:left;
+
+    margin-bottom:6px;
+
+}
+
+
+input{
+
+    width:100%;
+    height:45px;
+
+    border:none;
+    border-radius:5px;
+
+    margin-bottom:18px;
+
+    font-size:18px;
+
+    padding: 0 15px;
+
+    caret-color:#00ef92;
+}
+input:focus{
+
+    outline:none;
+
+    box-shadow:0 0 0 2px #00ef92;
+
+}
+
+.senha{
+
+    position:relative;
+
+}
+
+
+
+button{
+
+    width:100%;
+
+    height:45px;
+
+    border-radius:30px;
+
+    border:none;
+
+    background:#00ef92;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    margin-top:15px;
+
+}
+
+
+
+.link{
+
+    margin-top:25px;
+
+    font-size:14px;
+
+}
+
+
+
+.primeiro{
+
+    margin-top:60px;
+
+}
+
+
+.primeiro a{
+
+    color:#00ef92;
+
+}
+
+
+
+
+footer{
+
+    height:100px;
+
+    background:#104443;
+
+    border-radius:40px 40px 0 0;
+
+    text-align:center;
+
+    padding-top:20px;
+
+}
+
+
+footer span{
+
+    color:#00ef92;
+
+    font-size:35px;
+
+}
+
+
+footer h3{
+
+    color:#00ef92;
+
+}
+.senha span{
+
+    position:absolute;
+    right:15px;
+    top:12px;
+
+    color:#205b59;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:0.2s;
+
+}
+
+.senha span:hover{
+
+    transform:scale(1.15);
+
+}
+button:hover{
+
+    background:#00c979;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 15px rgba(0,0,0,0.25);
+}
