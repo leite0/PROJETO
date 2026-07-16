@@ -26,6 +26,7 @@ O sistema substitui o processo manual de reservas por uma plataforma web, permit
 * HTML5
 * CSS3
 * JavaScript
+* Leaflet library
 
 ### Back-end
 
